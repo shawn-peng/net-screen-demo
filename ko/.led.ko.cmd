@@ -1,0 +1,1 @@
+cmd_/work/src/7th_all/ko/led.ko := /work/android-2.2_froyo/prebuilt/linux-x86/toolchain/arm-eabi-4.4.0/bin/arm-eabi-ld -EL -r  -T /work/android-kernel-2.6.35/scripts/module-common.lds --build-id -o /work/src/7th_all/ko/led.ko /work/src/7th_all/ko/led.o /work/src/7th_all/ko/led.mod.o

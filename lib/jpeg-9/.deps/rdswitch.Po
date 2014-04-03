@@ -1,0 +1,112 @@
+rdswitch.o: rdswitch.c cdjpeg.h jinclude.h jconfig.h \
+  /opt/4.3.2/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.2/include/stddef.h \
+  /opt/4.3.2/bin/../arm-none-linux-gnueabi/libc/usr/include/stdlib.h \
+  /opt/4.3.2/bin/../arm-none-linux-gnueabi/libc/usr/include/features.h \
+  /opt/4.3.2/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/predefs.h \
+  /opt/4.3.2/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/cdefs.h \
+  /opt/4.3.2/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/wordsize.h \
+  /opt/4.3.2/bin/../arm-none-linux-gnueabi/libc/usr/include/gnu/stubs.h \
+  /opt/4.3.2/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/types.h \
+  /opt/4.3.2/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/types.h \
+  /opt/4.3.2/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/typesizes.h \
+  /opt/4.3.2/bin/../arm-none-linux-gnueabi/libc/usr/include/time.h \
+  /opt/4.3.2/bin/../arm-none-linux-gnueabi/libc/usr/include/endian.h \
+  /opt/4.3.2/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/endian.h \
+  /opt/4.3.2/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/select.h \
+  /opt/4.3.2/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/select.h \
+  /opt/4.3.2/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/sigset.h \
+  /opt/4.3.2/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/time.h \
+  /opt/4.3.2/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/sysmacros.h \
+  /opt/4.3.2/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/pthreadtypes.h \
+  /opt/4.3.2/bin/../arm-none-linux-gnueabi/libc/usr/include/alloca.h \
+  /opt/4.3.2/bin/../arm-none-linux-gnueabi/libc/usr/include/stdio.h \
+  /opt/4.3.2/bin/../arm-none-linux-gnueabi/libc/usr/include/libio.h \
+  /opt/4.3.2/bin/../arm-none-linux-gnueabi/libc/usr/include/_G_config.h \
+  /opt/4.3.2/bin/../arm-none-linux-gnueabi/libc/usr/include/wchar.h \
+  /opt/4.3.2/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.2/include/stdarg.h \
+  /opt/4.3.2/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/stdio_lim.h \
+  /opt/4.3.2/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/sys_errlist.h \
+  /opt/4.3.2/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/stdio.h \
+  /opt/4.3.2/bin/../arm-none-linux-gnueabi/libc/usr/include/string.h \
+  /opt/4.3.2/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/string.h \
+  /opt/4.3.2/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/string2.h \
+  jpeglib.h jmorecfg.h jerror.h cderror.h \
+  /opt/4.3.2/bin/../arm-none-linux-gnueabi/libc/usr/include/ctype.h
+
+cdjpeg.h:
+
+jinclude.h:
+
+jconfig.h:
+
+/opt/4.3.2/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.2/include/stddef.h:
+
+/opt/4.3.2/bin/../arm-none-linux-gnueabi/libc/usr/include/stdlib.h:
+
+/opt/4.3.2/bin/../arm-none-linux-gnueabi/libc/usr/include/features.h:
+
+/opt/4.3.2/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/predefs.h:
+
+/opt/4.3.2/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/cdefs.h:
+
+/opt/4.3.2/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/wordsize.h:
+
+/opt/4.3.2/bin/../arm-none-linux-gnueabi/libc/usr/include/gnu/stubs.h:
+
+/opt/4.3.2/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/types.h:
+
+/opt/4.3.2/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/types.h:
+
+/opt/4.3.2/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/typesizes.h:
+
+/opt/4.3.2/bin/../arm-none-linux-gnueabi/libc/usr/include/time.h:
+
+/opt/4.3.2/bin/../arm-none-linux-gnueabi/libc/usr/include/endian.h:
+
+/opt/4.3.2/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/endian.h:
+
+/opt/4.3.2/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/select.h:
+
+/opt/4.3.2/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/select.h:
+
+/opt/4.3.2/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/sigset.h:
+
+/opt/4.3.2/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/time.h:
+
+/opt/4.3.2/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/sysmacros.h:
+
+/opt/4.3.2/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/pthreadtypes.h:
+
+/opt/4.3.2/bin/../arm-none-linux-gnueabi/libc/usr/include/alloca.h:
+
+/opt/4.3.2/bin/../arm-none-linux-gnueabi/libc/usr/include/stdio.h:
+
+/opt/4.3.2/bin/../arm-none-linux-gnueabi/libc/usr/include/libio.h:
+
+/opt/4.3.2/bin/../arm-none-linux-gnueabi/libc/usr/include/_G_config.h:
+
+/opt/4.3.2/bin/../arm-none-linux-gnueabi/libc/usr/include/wchar.h:
+
+/opt/4.3.2/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.2/include/stdarg.h:
+
+/opt/4.3.2/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/stdio_lim.h:
+
+/opt/4.3.2/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/sys_errlist.h:
+
+/opt/4.3.2/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/stdio.h:
+
+/opt/4.3.2/bin/../arm-none-linux-gnueabi/libc/usr/include/string.h:
+
+/opt/4.3.2/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/string.h:
+
+/opt/4.3.2/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/string2.h:
+
+jpeglib.h:
+
+jmorecfg.h:
+
+jerror.h:
+
+cderror.h:
+
+/opt/4.3.2/bin/../arm-none-linux-gnueabi/libc/usr/include/ctype.h:
